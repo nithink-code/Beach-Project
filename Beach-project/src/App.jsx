@@ -5,11 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
 const App = () => {
-  return (
-    <LoginProviderContext>
-      <AppContent />
-    </LoginProviderContext>
-  );
+  return <AppContent />;
 };
 
 const AppContent = () => {
