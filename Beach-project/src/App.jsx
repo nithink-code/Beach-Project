@@ -1,14 +1,13 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./routes/Home";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import EventListingPage from "./pages/EventsList";
+import Home from "./routes/Home";
 
 const App = () => {
   return (
-    <LoginProviderContext>
       <AppContent />
-    </LoginProviderContext>
   );
 };
 
@@ -32,6 +31,7 @@ const AppContent = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/events" element={<EventListingPage/>}/>
       </Routes>
     </>
   );
