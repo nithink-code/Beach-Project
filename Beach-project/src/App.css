@@ -1,42 +1,70 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Hero Section Styles */
+.hero-section {
+  height: 500px;
+  overflow: hidden;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hero-image {
+  background-image: url('https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1633&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 400px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
+/* Card hover effect */
 .card {
-  padding: 2em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.read-the-docs {
-  color: #888;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Star rating styles */
+.star {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-body img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Review form styles */
+.review-form {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
 }

@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import EventListingPage from "./pages/EventsList";
 import Home from "./routes/Home";
+import RatingEvents from "./pages/RatingEvent";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const AppContent = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<EventListingPage/>}/>
+        <Route path="/events/rating" element={<RatingEvents/>}/>
       </Routes>
     </>
   );
