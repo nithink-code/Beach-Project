@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Holi Festival",
+      "type": "Festival",
+      "date": "2025-03-17",
+      "description": "The vibrant festival of colors, celebrated with joy and enthusiasm across India.",
+      "imageUrl": "https://t3.ftcdn.net/jpg/04/87/74/18/360_F_487741841_e4wcfoLFwLg3Okfs0ViCfrC1stMfxhuJ.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Diwali Celebration",
+      "type": "Festival",
+      "date": "2025-10-29",
+      "description": "The festival of lights, symbolizing the victory of good over evil. Homes are decorated with lamps and rangolis.",
+      "imageUrl": "https://images.pexels.com/photos/4078516/pexels-photo-4078516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 3,
+      "title": "Music Concert ft. Local Artists",
+      "type": "Event",
+      "date": "2025-05-20",
+      "description": "An evening showcasing the talent of local musicians, featuring various genres.",
+      "imageUrl": "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?cs=srgb&dl=pexels-thibault-trillet-44912-167636.jpg&fm=jpg"
+    },
+    {
+      "id": 4,
+      "title": "Contemporary Art Exhibition",
+      "type": "Event",
+      "date": "2025-06-10",
+      "description": "A curated exhibition featuring the latest works from contemporary artists in the region.",
+      "imageUrl": "https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 5,
+      "title": "Pongal Festival",
+      "type": "Festival",
+      "date": "2026-01-14",
+      "description": "The harvest festival of Tamil Nadu, celebrated with traditional cooking and prayers for a bountiful year.",
+      "imageUrl": "https://img.freepik.com/free-photo/cartoonish-thaipusam-celebration_23-2151101786.jpg?t=st=1744181368~exp=1744184968~hmac=db578a40581003c329ee7a758ecf230fe4140b2a036ace3b65defe57744755b4&w=1380"
+    },
+    {
+      "id": 6,
+      "title": "National Technology Conference",
+      "type": "Event",
+      "date": "2025-11-15",
+      "description": "A leading conference bringing together experts and enthusiasts to discuss the latest trends in technology.",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaCUyMGNvbmZlcmVuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "id": 7,
+      "title": "Independence Day Celebration",
+      "type": "Festival",
+      "date": "2025-08-15",
+      "description": "A national festival commemorating India's independence with patriotic fervor and cultural events.",
+      "imageUrl": "https://images.unsplash.com/photo-1723394212824-a59ce1e2f09a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 8,
+      "title": "Local Food Festival",
+      "type": "Event",
+      "date": "2025-09-22",
+      "description": "A delightful event showcasing the diverse and delicious cuisine of the local region.",
+      "imageUrl": "https://media.istockphoto.com/id/868408746/photo/assorted-indian-dish.jpg?s=612x612&w=0&k=20&c=XLsAk571Z2kEe_x6TnXWSzsG95-2agp-TcYswQrKHuo="
+    }
+  ]
