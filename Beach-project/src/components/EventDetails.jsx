@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Review from './Review';
 import ReviewForm from './ReviewForm';
 import { FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const EventDetails = ({ event, onAddReview }) => {
   const [showForm, setShowForm] = useState(false);
@@ -90,6 +91,10 @@ const EventDetails = ({ event, onAddReview }) => {
           </div>
           <div className="modal-footer">
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <Link to={`/ratings`} className="btn btn-success">
+              Register / Buy Tickets
+            </Link>
+
           </div>
         </div>
       </div>

@@ -10,6 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import EventListingPage from "./pages/EventsList";
 import Home from "./routes/Home";
 import RatingEvents from "./pages/RatingEvent";
+import Choices from "./components/Choices";
+import Navbar from "./components/Navbar";
 
 
 const App = () => {
@@ -45,6 +47,8 @@ const AppContent = () => {
         <Route path="/beaches" element={<BeachPage />} />
         <Route path="/events" element={<EventListingPage/>}/>
         <Route path="/events/rating" element={<RatingEvents/>}/>
+        <Route path="/choice" element={<Choices/>}/>
+        <Route path="/navbar" element={<Navbar/>}/>
       </Routes>
     </>
   );

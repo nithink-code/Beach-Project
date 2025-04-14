@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import { useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleLogin = (e) => {
-    e.preventDefault();
-    // In a real application, you would send this data to your backend for authentication
-    if (email === 'test@example.com' && password === 'password') {
-      console.log('Login successful!');
-      setError('');
-      // Redirect to dashboard or another page
-    } else {
-      setError('Invalid email or password.');
-    }
+    e.preventDefault(); // Prevent the default form submission behavior
+    // Redirect to events page regardless of input
+    console.log('Login successful! Redirecting to events...');
+    setError('');
+    navigate('/choice');
   };
 
   return (
